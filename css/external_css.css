@@ -1,0 +1,29 @@
+h5{
+color:red;
+background-color:yellow;
+text-align:center;
+}	
+
+h2,h3,h4{
+	color:green;
+	background-color:pink;
+}
+
+.raj{
+	color:blue;
+	text-decoration:underline;
+}
+
+.nagar{
+	text-align:center;
+}
+	
+#rajesh{
+	color:LightGray;
+	background-color:black;
+}	
+
+h1#test {
+	text-transform:uppercase;
+}
+	

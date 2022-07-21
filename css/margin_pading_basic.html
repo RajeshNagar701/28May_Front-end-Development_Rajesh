@@ -1,0 +1,86 @@
+
+<!--
+
+margin  4 side   // space between 2 boxes or screen
+margin-top
+margin-bottom
+margin-left
+margin-right
+
+
+padding  4 sides  // space between box and content 
+padding-top
+padding-bottom
+padding-left;
+padding-right;
+
+
+Without the CSS box-sizing Property
+By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+*{
+ box-sizing: border-box;
+}
+-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+*{
+box-sizing: border-box;
+margin:0px;
+}
+
+
+.box1{
+	width:30%;
+	height:auto;
+	float:left;
+	background-color:red;
+	
+}
+.box2{
+	width:40%;
+	height:auto;
+	float:left;
+	background-color:green;
+	margin-left:10%;
+}
+
+.paddingbox1{
+	width:30%;
+	height:200px;
+	float:left;
+	background-color:pink;
+	padding:3%;
+	border:solid 5px red;
+	
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="box1">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown pr
+</div>
+
+<div class="box2">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown pr
+</div>
+<br>
+<br>
+<div class="paddingbox1">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown pr
+</div>
+</body>
+</html>
